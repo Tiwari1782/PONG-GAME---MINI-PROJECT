@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Table Tennis Pong</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Table Tennis Pong</h1>
+    <div id="hud">
+      <div id="instructions">
+        Controls: Move mouse over the game area or use Up / Down arrows to move the blue paddle.<br>
+        Press Space to pause / resume.
+      </div>
+      <div id="scoreboard">
+        <div class="score blue-score">
+          <span id="playerLabel">Blue</span>
+          <span id="playerScore">0</span>
+        </div>
+        <div class="score red-score">
+          <span id="computerLabel">Red</span>
+          <span id="computerScore">0</span>
+        </div>
+      </div>
+    </div>
+    <div id="game-wrap">
+      <canvas id="game" width="800" height="500" aria-label="Table Tennis Pong"></canvas>
+    </div>
+    <div id="footer">
+      <button id="resetBtn">Reset Scores</button>
+      <button id="testSoundBtn" style="margin-left:12px;">Test Sound</button>
+    </div>
+  </main>
+  <audio id="popSound" src="table-tennis-ball-pong-peng-sound-effect_KQxN6U1Z.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

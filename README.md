@@ -8,6 +8,7 @@ Features:
 - Ball bounces off top/bottom walls and paddles.
 - Scoreboard updates when a player scores.
 - Space toggles pause/resume. Reset button clears scores.
+-Play 
 
 How to run:
 1. Open `index.html` in any modern browser (no build tools required).
